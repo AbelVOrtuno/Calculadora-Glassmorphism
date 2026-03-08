@@ -5,12 +5,14 @@ body{
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(105deg, #ff6ec4, #7873f5, #4adede);
+    font-family: 'Poppings', sans-serif;
 }
 
 /* Contenedor de vidrio */
 .calculadora{
+    width: 350px;
     backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.15);
 
     border: 2px solid rgba(255, 255, 255, 0.3);
     border-radius: 2rem;
@@ -29,11 +31,21 @@ button{
     padding: 1.5rem;
     border: none;
     border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.25);
     color: white;
     font-size: 2rem;
     cursor: pointer;
     backdrop-filter: blur(5px);
+    transition: 
+    transform 0.2s,
+    background 0.2s,
+    box-shadow 0.2s;
+}
+
+#igual{
+    background-color: #00ffa6;
+    color: #222;
+    font-weight: bold;
 }
 /* Animacion suave */
 button:hover{

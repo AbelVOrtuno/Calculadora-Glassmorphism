@@ -19,3 +19,10 @@ function calculate(){
         display.innerText = "Error"
     }
 }
+function deleteLast(){
+    display.innerText = display.innerText.slice(0,-1)
+
+    if(display.innerText === ""){
+        display.innerText =""
+    }
+}

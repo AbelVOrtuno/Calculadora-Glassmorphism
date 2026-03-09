@@ -83,3 +83,9 @@ button:hover{
     margin-bottom: 2rem;
     border-radius: 1.7rem;
 }
+#history{
+    font-size: 1.6rem;
+    opacity: 0.6;
+    text-align: right;
+    margin-bottom: .5rem;
+}
